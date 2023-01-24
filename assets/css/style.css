@@ -68,3 +68,31 @@ h2 {
     height: 400px;
     margin-top: 600px;
 }
+
+#testimonial-container {
+    display: flex;
+    background-color: #ffffff;
+    height: 400px;
+    margin-top: 600px;
+}
+
+#gallery-container {
+    display: flex;
+    background-color: #B08F72;
+    height: 400px;
+    margin-top: 600px;
+}
+
+#gallery-container {
+    display: flex;
+    background-color: #ffffff;
+    height: 400px;
+    margin-top: 600px;
+}
+
+#footer-container {
+    display: flex;
+    background-color: #B08F72;
+    height: 400px;
+    margin-top: 600px;
+}
