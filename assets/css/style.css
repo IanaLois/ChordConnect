@@ -14,12 +14,14 @@ body {
 h1 {
     font-family: Comfortaa, sans-serif;
     font-weight: 700;
+    color: #58321C;
 }
 
 h2 {
     font-family: Rubik, sans-serif;
     font-weight: 300;
     font-style: italic;
+    color: #58321C;
 }
 
 /* navigation links */
@@ -29,6 +31,7 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 20px;
+    color: #58321C;
 }
 
 .header-content li {
@@ -55,4 +58,13 @@ h2 {
 
 #homepage-banner {
     display: flex
+}
+
+/* tutor information */
+
+#tutor-info-container {
+    display: flex;
+    background-color: #B08F72;
+    height: 400px;
+    margin-top: 360px;
 }
