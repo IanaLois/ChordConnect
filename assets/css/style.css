@@ -22,7 +22,21 @@ h2 {
     font-style: italic;
 }
 
-#logo {
+.header-content {
     display: flex;
-    justify-content: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 20px;
+    padding-left: 50px;
+}
+
+.header-content li {
+    list-style-type: none;
+    letter-spacing: 3px;
+    margin-top: -31px;
+    padding: 20px;
+}
+
+.header-content a {
+    text-decoration: none;
 }
