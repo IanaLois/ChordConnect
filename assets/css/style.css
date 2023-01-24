@@ -30,8 +30,9 @@ h2 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 20px;
+    margin-top: 20px;
     color: #58321C;
+    margin-left: 20px;
 }
 
 .header-content li {
@@ -39,6 +40,7 @@ h2 {
     letter-spacing: 3px;
     margin-top: -31px;
     padding: 17px;
+    margin-right: 20px;
 }
 
 .header-content a {
@@ -60,39 +62,56 @@ h2 {
     display: flex
 }
 
+#banner-overlay {
+    background-color: #ffffff;
+    width: 480px;
+    height: 250px;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin: 50px;
+    opacity: 0.4;
+    position: relative;
+}
+
 /* tutor information */
 
 #tutor-info-container {
-    display: flex;
     background-color: #B08F72;
     height: 400px;
-    margin-top: 600px;
+    margin-top: 500px;
 }
+
+.tutor-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+/* testimonials section */
 
 #testimonial-container {
     display: flex;
     background-color: #ffffff;
     height: 400px;
-    margin-top: 600px;
-}
-
-#gallery-container {
-    display: flex;
-    background-color: #B08F72;
-    height: 400px;
-    margin-top: 600px;
+    margin-top: 0px;
 }
 
 #gallery-container {
     display: flex;
     background-color: #ffffff;
     height: 400px;
-    margin-top: 600px;
+    margin-top: 0px;
 }
 
 #footer-container {
     display: flex;
     background-color: #B08F72;
     height: 400px;
-    margin-top: 600px;
+    margin-top: 0px;
+}
+
+.subheading-flex {
+    display: flex;
+    justify-content: center;
 }
