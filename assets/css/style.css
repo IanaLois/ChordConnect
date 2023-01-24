@@ -21,3 +21,8 @@ h2 {
     font-weight: 300;
     font-style: italic;
 }
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+}
