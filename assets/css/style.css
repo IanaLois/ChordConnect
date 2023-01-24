@@ -49,7 +49,7 @@ h2 {
 
 #background-video {
     width: 100%;
-    height: 400px;
+    height: 650px;
     object-fit: cover;
     position: fixed;
     z-index: -1;
@@ -66,5 +66,5 @@ h2 {
     display: flex;
     background-color: #B08F72;
     height: 400px;
-    margin-top: 360px;
+    margin-top: 600px;
 }
