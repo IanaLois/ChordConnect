@@ -22,6 +22,7 @@ h2 {
     font-weight: 300;
     font-style: italic;
     color: #58321C;
+    font-size: xx-large;
 }
 
 /* navigation links */
@@ -78,14 +79,29 @@ h2 {
 
 #tutor-info-container {
     background-color: #B08F72;
-    height: 400px;
+    height: 500px;
     margin-top: 500px;
 }
 
 .tutor-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: row wrap;
+}
+
+.subheading-tutor-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.tutor-layout {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    
 }
 
 /* testimonials section */
@@ -111,7 +127,3 @@ h2 {
     margin-top: 0px;
 }
 
-.subheading-flex {
-    display: flex;
-    justify-content: center;
-}
