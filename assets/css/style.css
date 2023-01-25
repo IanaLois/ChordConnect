@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,12 +13,10 @@ body {
 
 h1 {
     font-family: Comfortaa, sans-serif;
-    font-weight: 700;
     color: #58321C;
 }
 
 h2 {
-    font-family: Rubik, sans-serif;
     font-weight: 300;
     font-style: italic;
     color: #58321C;
@@ -36,29 +34,45 @@ h2 {
 
 .header-title > div {
     background-color: #ffffff;
-    margin: 1.25rem;
-    padding: 1.4rem;
-    font-size: 1.3rem;
-    list-style-type: none;
-    letter-spacing: 3px;
-    color: inherit;
-    text-shadow: 1.3rem 1.5rem #B08F72;
+    margin: 1rem;
+    text-shadow: 0.2rem 1.2rem #B08F72;
+    height: 1rem;
 }
 
 .header-title a {
     text-decoration: none;
+    color: #58321C;
 }
 
 .header-title li {
     list-style: none;
-    font-size: 1.25rem;
+    text-shadow: none;
+    padding: 0.5rem;
 }
 
 .nav-links {
     display: flex;
     flex-flow: row wrap;
     background-color: #ffffff;
+    border-style: solid;
+    border-color: #58321C;
+    border-width: 0.125rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
+
+.nav-links li {
+    padding: 0.4rem;
+}
+
+.logo {
+    border-style: solid;
+    border-color: #58321C;
+    border-width: 0.125rem;
+}
+
+
 
 /* hero image */
 
@@ -78,11 +92,10 @@ h2 {
 #banner-overlay {
     background-color: #ffffff;
     width: 480px;
-    height: 250px;
+    height: 500px;
     border-radius: 5%;
-    margin-top: 80px;
-    margin-left: 50px;
-    margin: 50px;
+    margin: 4rem;
+    margin-top: 12rem;
     opacity: 0.4;
     position: relative;
 }
