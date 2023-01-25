@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Rubik, sans-serif;
     font-weight: 300;
@@ -30,18 +34,20 @@ h2 {
     background-color: #ffffff;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-title > div {
     background-color: #ffffff;
     margin: 1rem;
-    text-shadow: 0.2rem 1.2rem #B08F72;
-    height: 1rem;
+    margin-top: 0.5rem;
+    height: 1.7rem;
 }
 
 .header-title a {
     text-decoration: none;
     color: #58321C;
+
 }
 
 .header-title li {
@@ -59,20 +65,22 @@ h2 {
     border-width: 0.125rem;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .nav-links li {
     padding: 0.4rem;
 }
 
-.logo {
-    border-style: solid;
-    border-color: #58321C;
-    border-width: 0.125rem;
+header {
+    position: fixed;
+    width: 100%;
 }
 
-
+.logo {
+    margin: 1.5rem;
+    margin-top: 0.8rem;
+}
 
 /* hero image */
 
