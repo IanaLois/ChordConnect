@@ -27,25 +27,37 @@ h2 {
 
 /* navigation links */
 
-.header-content {
+.header-title {
     display: flex;
+    background-color: #ffffff;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 20px;
-    color: #58321C;
-    margin-left: 20px;
 }
 
-.header-content li {
+.header-title > div {
+    background-color: #ffffff;
+    margin: 1.25rem;
+    padding: 1.4rem;
+    font-size: 1.3rem;
     list-style-type: none;
     letter-spacing: 3px;
-    margin-top: -31px;
-    padding: 17px;
-    margin-right: 20px;
+    color: inherit;
+    text-shadow: 1.3rem 1.5rem #B08F72;
 }
 
-.header-content a {
+.header-title a {
     text-decoration: none;
+}
+
+.header-title li {
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #ffffff;
 }
 
 /* hero image */
@@ -126,4 +138,3 @@ h2 {
     height: 400px;
     margin-top: 0px;
 }
-
