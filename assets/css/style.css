@@ -12,12 +12,12 @@ html {
 
 body {
     font-family: Rubik, sans-serif;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 h1 {
     font-family: Comfortaa, sans-serif;
-    color: #58321C;
+    color: #B08F72;
 }
 
 h2 {
@@ -31,14 +31,13 @@ h2 {
 
 .header-title {
     display: flex;
-    background-color: #ffffff;
+    background-color: #B08F72;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .header-title > div {
-    background-color: #ffffff;
     margin: 1rem;
     margin-top: 0.5rem;
     height: 1.7rem;
@@ -46,7 +45,7 @@ h2 {
 
 .header-title a {
     text-decoration: none;
-    color: #58321C;
+    color: #B08F72;
 
 }
 
@@ -60,12 +59,13 @@ h2 {
     display: flex;
     flex-flow: row wrap;
     background-color: #ffffff;
-    border-style: solid;
     border-color: #58321C;
     border-width: 0.125rem;
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
     margin: 1.5rem;
+    box-shadow: 5px 5px 0 #58321C;
 }
 
 .nav-links li {
@@ -80,32 +80,45 @@ header {
 .logo {
     margin: 1.5rem;
     margin-top: 0.8rem;
+    border-width: 0.125rem;
+    border-color: #58321C;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: -5px 5px 0 #58321C;
+    border-radius: 5px;
 }
 
 /* hero image */
 
 #background-video {
     width: 100%;
-    height: 650px;
+    height: 40rem;
     object-fit: cover;
     position: fixed;
     z-index: -1;
     opacity: 0.9;
+    margin-top: 1rem;
   }
 
 #homepage-banner {
-    display: flex
+    display: flex;
+
 }
 
 #banner-overlay {
-    background-color: #ffffff;
-    width: 480px;
-    height: 500px;
-    border-radius: 5%;
-    margin: 4rem;
+    display: flex;
+    width: 25rem;
     margin-top: 12rem;
-    opacity: 0.4;
-    position: relative;
+    margin-left: 2rem;
+    justify-content: center;
+}
+
+#banner-overlay h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 5px 0 #B08F72;
+
 }
 
 /* tutor information */
