@@ -35,12 +35,19 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 1px 5px #58321C;
 }
 
 .header-title > div {
     margin: 1rem;
     margin-top: 0.5rem;
     height: 1.7rem;
+}
+
+.header-title a {
+    display: flex;
+    text-decoration: none;
+    color: #B08F72;
 }
 
 header {
@@ -51,6 +58,7 @@ header {
 /* logo */
 
 .logo {
+    display: flex;
     margin: 1.5rem;
     margin-top: 0.8rem;
     padding: 0.5rem;
@@ -59,11 +67,6 @@ header {
     border-radius: 5px;
 }
 
-.header-title a {
-    text-decoration: none;
-    color: #B08F72;
-
-}
 
 /* navbar */
 
@@ -104,29 +107,26 @@ header {
 
 #homepage-banner {
     display: flex;
-
 }
 
-#banner-overlay {
+#banner-text {
     margin-top: 12rem;
     margin-left: 2rem;
-    justify-content: center;
 }
 
-#banner-overlay h2 {
+#banner-text h2 {
     font-size: 5rem;
     font-weight: 700;
-    color: #ffffff;
-    text-shadow: 0 5px 0 #B08F72;
-
+    color: #B08F72;
+    background-color: #58321C;
 }
 
 /* tutor information */
 
 #tutor-info-container {
     background-color: #B08F72;
-    height: 500px;
-    margin-top: 500px;
+    height: auto;
+    margin-top: 15rem;
 }
 
 .tutor-flex {
@@ -142,11 +142,11 @@ header {
 
 .tutor-layout {
     width: 100%;
-    height: 400px;
-    margin-top: 20px;
+    height: auto;
+    margin-top: 0.2rem;
     border-style: solid;
     border-color: #ffffff;
-    border-width: 5px;
+    border-width: 0.2rem;
     
 }
 
@@ -155,20 +155,20 @@ header {
 #testimonial-container {
     display: flex;
     background-color: #ffffff;
-    height: 400px;
-    margin-top: 0px;
+    height: auto;
+    margin-top: 0.2rem;
 }
 
 #gallery-container {
     display: flex;
     background-color: #ffffff;
-    height: 400px;
-    margin-top: 0px;
+    height: auto;
+    margin-top: 0.2rem;
 }
 
 #footer-container {
     display: flex;
     background-color: #B08F72;
-    height: 400px;
-    margin-top: 0px;
+    height: auto;
+    margin-top: 0.5rem;
 }
