@@ -17,7 +17,7 @@ body {
 
 h1 {
     font-family: Comfortaa, sans-serif;
-    color: #B08F72;
+    color: #87614b;
 }
 
 h2 {
@@ -107,8 +107,8 @@ header {
 /* hero image */
 
 .background-video {
-    width: 100%;
-    height: 40rem;
+    width: 105%;
+    height: 80%;
     object-fit: cover;
     position: fixed;
     z-index: -1;
@@ -125,8 +125,15 @@ header {
     margin-top: 9rem;
     text-align: center;
     display: flex;
-    padding: 5rem;
+    padding: 4.5rem;
     flex-flow: row wrap;
+}
+
+.banner-text-style {
+    background-color: #877d75;
+    opacity: 0.8;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
 .banner-text h2 {
@@ -148,7 +155,7 @@ header {
     color: #58321C;
     background-color: #ffffff;
     border-radius: 5px;
-    padding: 0.2rem;
+    padding: 0.1rem;
 }
 
 /* about */
@@ -157,6 +164,12 @@ header {
     background-color: #ffffff;
     text-align: center;
     margin-top: 18rem;
+}
+
+.about-us {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .about-section-paragraph {
@@ -168,6 +181,12 @@ header {
     background-color: #ffffff;
     padding: 2rem;
     height: auto;
+}
+
+.about-section h2 {
+    width: 10rem;
+    background-color: #B08F72;
+    border-radius: 50px;
 }
 
 /* tutor information */
@@ -220,4 +239,28 @@ img {
     height: 16rem;
     width: 13rem;
     background-color: #B08F72;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 33.3%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+.card-image {
+    margin: 0 auto
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        width:100%
+    }
 }
