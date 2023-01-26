@@ -190,12 +190,11 @@ header {
 }
 
 .about-us h2 {
-    width: 10rem;
-    background-color: #B08F72;
-    border-radius: 50px;
     border-color: #87614b;
     border-width: 0.125rem;
     border-style: solid;
+    padding-left: 5rem;
+    background-color: #B08F72;
 }
 
 .about-us span {
