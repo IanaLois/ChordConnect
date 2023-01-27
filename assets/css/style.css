@@ -204,7 +204,7 @@ header {
 #tutor-section {
     background-color: #B08F72;
     text-align: center;
-    height: 127rem;
+    height: 128rem;
     margin-top: 22rem;
 }
 
@@ -212,7 +212,7 @@ header {
     padding: 1rem;
     display: flex;
     justify-content: center;
-    margin-top: -47.2rem;
+    margin-top: -46.2rem;
 }
 
 .meet-the-tutors-subheading h2 {
@@ -235,7 +235,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin-top: 0rem;
+    margin-top: 3rem;
 }
 
 /* testimonials */
@@ -243,7 +243,7 @@ header {
 #testimonial-section {
     background-color: #ffffff;
     text-align: center;
-    height: 60rem;
+    height: 69rem;
     margin-top: 52rem;
 }
 
@@ -268,7 +268,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin-top: -58rem;
+    margin-top: -64rem;
     background-color: #ffffff;
 }
 
@@ -364,6 +364,11 @@ div.card {
 div.card-testimonial {
     background-color: #ffffff;
     width: 16rem;
-    height: 25rem;
+    height: 29rem;
     border-radius: 15px;
     font-size: 13px;
+    border-color: #87614b;
+    border-width: 0.1rem;
+    border-style: solid;
+    box-shadow: -5px 5px 1px #87614b;
+}
