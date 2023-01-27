@@ -243,7 +243,7 @@ header {
 #testimonial-section {
     background-color: #ffffff;
     text-align: center;
-    height: 69rem;
+    height: 76rem;
     margin-top: 52rem;
 }
 
@@ -268,7 +268,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin-top: -64rem;
+    margin-top: -70rem;
     background-color: #ffffff;
 }
 
@@ -347,7 +347,7 @@ div.card {
 
 .card-image-testimonial {
     margin: 0 auto;
-    width: 10rem;
+    width: 14rem;
     border-style: solid;
     border-color: #ffffff;
     border-width: 0.2rem;
@@ -364,7 +364,7 @@ div.card {
 div.card-testimonial {
     background-color: #ffffff;
     width: 16rem;
-    height: 29rem;
+    height: 32rem;
     border-radius: 15px;
     font-size: 13px;
     border-color: #87614b;
