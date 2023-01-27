@@ -358,7 +358,7 @@ div.card-testimonial {
 
 /* contact */
 
-.contact-section {
+#contact-section {
     background-color: #B08F72;
     text-align: center;
     height: 130rem;
@@ -427,7 +427,7 @@ button {
     color: #58321c;
     background: #b08f72;
     border-radius: 5px;
-    margin-top: 13rem;
+    margin-top: 8rem;
     margin-left: 8rem;
 }
 
@@ -440,26 +440,27 @@ fieldset {
 .form-name-box {
     padding: 1.5rem;
     color: #58321c;
-    height: 3rem;
+    height: 2rem;
+    margin-top: 0rem;
 }
 
 .form-email-box {
     padding: 1.5rem;
     color: #58321c;
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: -1rem;
 }
 
 .form-guitar-level-box {
     padding: 1.5rem;
     color: #58321c;
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: -2rem;
 }
 
 .form-message-box {
     padding: 1.5rem;
     color: #58321c;
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: -2rem;
 }
