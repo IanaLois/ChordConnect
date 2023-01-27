@@ -357,23 +357,23 @@ div.card-testimonial {
 }
 
 
-/* sign up now */
+/* contact */
 
-.sign-up-section {
+.contact-section {
     background-color: #B08F72;
     text-align: center;
     height: 130rem;
     margin-top: 21rem;
 }
 
-.sign-up-subheading {
+.contact-subheading {
     padding: 1rem;
     display: flex;
     justify-content: center;
     margin-top: -15.2rem;
 }
 
-.sign-up-subheading h2 {
+.contact-subheading h2 {
     width: 16rem;
     background-color: #ffffff;
     border-radius: 50px;
@@ -384,7 +384,7 @@ div.card-testimonial {
     box-shadow: -5px 5px 1px #87614b;
 }
 
-.sign-up-layout {
+.contact-layout {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -428,6 +428,7 @@ button {
     color: #58321c;
     background: #b08f72;
     border-radius: 5px;
+    margin-top: 50rem;
 }
 
 fieldset {
