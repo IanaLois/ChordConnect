@@ -210,26 +210,22 @@
                     <form action="index.html" method="POST">
                         <fieldset>
                         <legend>Your details</legend>
-                            <div>           
+                            <div class="form-name-box">           
                                 <label for="name">Name</label>
                                 <input id="name" type="text" placeholder="Name" required>
                             </div>
-                            <div>
-                                <label for="name">Email Address</label>
-                                <input id="name" type="email" placeholder="Email" required>
+                            <div class="form-email-box">
+                                <label for="email">Email Address</label>
+                                <input id="email" type="email" placeholder="Email" required>
                             </div>
-                            <div>
-                                <label for="guitar-skill-level">Your Guitar Skill Level</label>
-                                <select id="guitar-skill-level" name="Your Guitar Skill Level" required>
+                            <div class="form-guitar-level-box">
+                                <label for="guitar-skill-level">Guitar Skill Level</label>
+                                <select id="guitar-skill-level" name="Guitar Skill Level" required class="form-sizing">
                                     <option value="beginner">Beginner</option>
                                     <option value="intermediate">Intermediate</option>
                                     <option value="advanced">Advanced</option>
                                     <option value="master">Master</option>
                                     <option value="im-not-sure">I'm not sure</option>
-                            </div>
-                            <div>
-                                <label for="name">Name</label>
-                                <textarea id="massage" name="message" placeholder="Enter Additional Information" rows="10" cols="10"></textarea>
                             </div>
                             <div>
                                 <button type="submit"><strong>Submit</strong></button>

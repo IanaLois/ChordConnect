@@ -32,6 +32,10 @@ h3 {
     font-size: xx-large;
 }
 
+p{
+    color: #58321C;
+}
+
 .section-layout {
     width: 100%;
     margin: auto;
@@ -175,6 +179,7 @@ header {
     text-align: center;
     background-color: #B08F72;
     margin-top: -1rem;
+    color: #58321C;
 }
 
 .about-section-paragraph p {
@@ -339,7 +344,7 @@ div.card {
 }
 
 div.card-testimonial {
-    background-color: #ffffff;
+    background-color: #B08F72;
     width: 16rem;
     height: 32rem;
     border-radius: 15px;
@@ -348,6 +353,7 @@ div.card-testimonial {
     border-width: 0.1rem;
     border-style: solid;
     box-shadow: -5px 5px 1px #87614b;
+    color: #58321C;
 }
 
 
@@ -413,8 +419,46 @@ div.card-form {
     width: 18rem;
     height: 36rem;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 21px;
     box-shadow: -5px 5px 1px #87614b;
-    display: flex;
-    justify-content: space-evenly flex-start;
+}
+
+button {
+    padding: 0.5rem;
+    color: #58321c;
+    background: #b08f72;
+    border-radius: 5px;
+}
+
+fieldset {
+    border-radius: 15px;
+    margin: 2rem;
+    height: 31rem;
+}
+
+.form-name-box {
+    padding: 1.5rem;
+    color: #58321c;
+    height: 3rem;
+}
+
+.form-email-box {
+    padding: 1.5rem;
+    color: #58321c;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.form-guitar-level-box {
+    padding: 1.5rem;
+    color: #58321c;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.form-text-box {
+    padding: 1.5rem;
+    color: #58321c;
+    height: 3rem;
+    margin-top: 2rem;
 }
