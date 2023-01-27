@@ -198,9 +198,8 @@ header {
 }
 
 .about-us span {
-        width: 15rem;
-        display: flex;
-        padding-left: 1rem;
+    display: flex;
+    padding-right: 4rem;
 }
 
 /* tutor information */
@@ -239,7 +238,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .tutor-layout > div > p {
@@ -247,16 +246,10 @@ header {
     padding: 1rem;
 }
 
-.tutor-layout > div > img {
+.card-container p {
     height: 16rem;
-    width: 13rem;
-    background-color: #B08F72;    
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: column;
-    align-items: center;
+    background-color: #ffffff;
 }
-
 /* testimonials */
 
 .testimonial-section {
@@ -273,32 +266,46 @@ header {
     margin-top: 0rem;    
 }
 
-img {
-    height: 16rem;
-    width: 13rem;
-    background-color: #B08F72;
-}
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 33.3%;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 23%;
+    padding: 1rem;
 }
 
 .card-container {
-    padding: 2px 16px;
+    padding: 0.1rem;
+
 }
 
 .card-image {
-    margin: 0 auto
+    margin: 0 auto;
+    width: 10rem;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 15px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
     .card {
-        width:100%
+        width: 80%;
     }
+}
+
+div.card {
+    background-color: #ffffff;
+}
+
+.card-container p {
+    text-align: justify;
+}
+
+.testimonial-pic > img {
+    width: 10px;
+    height: 10px;
 }
