@@ -204,24 +204,40 @@
             <div class="sign-up-subheading">
                 <h2>Sign Up</h2>
             </div>
-        </div>
-        
-        <div class="form-structure">
-                <form action="index.html" method="POST">
-                    <legend>Your details</legend>
-                    <fieldset>
-                        <div>Name</div>
-                    </fieldset>
-                    <fieldset>
-                        <div>Email</div>
-                    </fieldset>
-                    <fieldset>
-                        <div>Guitar Skill Level</div>
-                    </fieldset>
-                    <fieldset>
-                        <div>Additional information</div>
-                    </fieldset>
-                </form>
+        <div class="sign-up-layout">
+            <div class="card-form">
+                <div class="card-container-form card-image-form">
+                    <form action="index.html" method="POST">
+                        <fieldset>
+                        <legend>Your details</legend>
+                            <div>           
+                                <label for="name">Name</label>
+                                <input id="name" type="text" placeholder="Name" required>
+                            </div>
+                            <div>
+                                <label for="name">Email Address</label>
+                                <input id="name" type="email" placeholder="Email" required>
+                            </div>
+                            <div>
+                                <label for="guitar-skill-level">Your Guitar Skill Level</label>
+                                <select id="guitar-skill-level" name="Your Guitar Skill Level" required>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="advanced">Advanced</option>
+                                    <option value="master">Master</option>
+                                    <option value="im-not-sure">I'm not sure</option>
+                            </div>
+                            <div>
+                                <label for="name">Name</label>
+                                <textarea id="massage" name="message" placeholder="Enter Additional Information" rows="10" cols="10"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit"><strong>Submit</strong></button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </div>
     <footer>
         <h2>Social Media Links</h2>
