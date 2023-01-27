@@ -207,7 +207,7 @@ header {
 .tutor-section {
     background-color: #B08F72;
     text-align: center;
-    height: 55rem;
+    height: 135rem;
     margin-top: 47rem;
 }
 
@@ -299,10 +299,14 @@ header {
 
 div.card {
     background-color: #ffffff;
+    width: 16rem;
+    height: 39rem;
+    border-radius: 15px;
 }
 
 .card-container p {
     text-align: justify;
+    font-size: 14px;
 }
 
 .testimonial-pic > img {
