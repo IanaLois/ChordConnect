@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -207,10 +206,10 @@ header {
 
 /* meet the tutors */
 
-#content-structure {
+#tutor-section {
     background-color: #B08F72;
     text-align: center;
-    height: 128rem;
+    height: 52rem;
     margin-top: 22rem;
 }
 
@@ -251,7 +250,7 @@ header {
     background-color: #ffffff;
     text-align: center;
     height: 76rem;
-    margin-top: 52rem;
+    margin-top: 47rem;
 }
 
 .testimonial-subheading {
@@ -388,7 +387,7 @@ div.card-testimonial {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin-top: 1rem;
+    margin-top: -123rem;
     background-color: #B08F72;
 }
 
@@ -428,7 +427,8 @@ button {
     color: #58321c;
     background: #b08f72;
     border-radius: 5px;
-    margin-top: 50rem;
+    margin-top: 13rem;
+    margin-left: 8rem;
 }
 
 fieldset {
@@ -457,7 +457,7 @@ fieldset {
     margin-top: 2rem;
 }
 
-.form-text-box {
+.form-message-box {
     padding: 1.5rem;
     color: #58321c;
     height: 3rem;
