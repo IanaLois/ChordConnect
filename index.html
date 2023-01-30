@@ -140,40 +140,61 @@
     </section>
     <section>
         <div id="chordconnector-form">
-            <h2>New ChordConnector Form</h2>
-            <form action="" method="POST">
-                <div class="">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" placeholder="Your First Name" name="full_name">
-                </div>
-                <div>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" placeholder="Your Last Name" name="last_name">
-                </div>
-                <div class="">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" placeholder="name@example.com" name="email_address">
-                </div>
-                <div>
-                    <label for="guitar-skill-level">Your Guitar Skill Level</label>
-                    <select id="guitar-skill-level" name="guitar_skill_level">
-                        <option value="beginner" selected>Beginner</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="advanced">Advanced</option>
-                        <option value="im-not-sure">I'm Not Sure</option>
-                </div>
-                <div>
-                    <label for="survey-question">How did you hear about us?</label>
-                    <select id="survey-question" name="how_did_you_hear_about_us">
-                        <option value="search-engine" selected>Search Engine (Google, Bing, Yahoo!, etc.)</option>
-                        <option value="social_media">Social Media (Facebook, Twitter, Instagram, etc.)</option>
-                        <option value="word-of-mouth">Word of Mouth (Friends, family, co-workers, etc.)</option>
-                        <option value="other">Other (Please specify in additional information box)</option>
-                </div>
-                <div>
-                    <label for="extra-info">Additional Information</label>
-                    <textarea name="extra_information" id="extra-info" cols="30" rows="10" placeholder="Enter any additional information here"></textarea>
-                </div>
+            <h2>ChordConnector Form</h2>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <fieldset>
+                <legend>Your details</legend>
+                <br>
+                    <div class="">
+                        <label for="fname"><h4>First Name</h4></label>
+                        <input type="text" id="fname" placeholder="Your First Name" name="full_name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="lname"><h4>Last Name</h4></label>
+                        <input type="text" id="lname" placeholder="Your Last Name" name="last_name" required>
+                    </div>
+                    <br>
+                    <div class="">
+                        <label for="email"><h4>Email Address</h4></label>
+                        <input type="email" id="email" placeholder="name@example.com" name="email_address" required>
+                    </div>
+                    
+                </fieldset>
+                <br>
+                <fieldset>
+                <legend>Questions</legend>
+                <br>
+                    <div>
+                        <label for="guitar-skill-level"><h4>Your Guitar Skill Level</h4></label>
+                        <select id="guitar-skill-level" name="guitar_skill_level">
+                            <option value="beginner" selected>Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                            <option value="im-not-sure">I'm Not Sure</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="survey-question"><h4>How did you hear about us?</h4></label>
+                        <select id="survey-question" name="how_did_you_hear_about_us">
+                            <option value="search-engine" selected>Search Engine (Google, Bing, Yahoo!, etc.)</option>
+                            <option value="social_media">Social Media (Facebook, Twitter, Instagram, etc.)</option>
+                            <option value="word-of-mouth">Word of Mouth (Friends, family, co-workers, etc.)</option>
+                            <option value="other">Other (Please specify in additional information box)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                    <br>
+                    <fieldset>                
+                    <legend>Your Message</legend>
+                    <br>
+                    <div>
+                        <label for="extra-info"><h4>Additional Information</h4></label>
+                        <textarea name="extra_information" id="extra-info" cols="30" rows="10" placeholder="Enter any additional information here"></textarea>
+                    </div>
+                </fieldset>
+                <br>
                 <button type="submit">Sign up now</button>
             </form>
         </div>
