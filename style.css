@@ -61,3 +61,21 @@ section {
     padding: 100px 0;
 }
 
+/* Hero Image */
+
+header {
+    background-image: url(/assets/images/chordconnect-hero-image-edited.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Logo */
+
+.logo {
+    background-color: #B08F72;
+    margin-top: 0rem;
+    padding: 0.1rem;
+    box-shadow: 0 0 5px;
+}
