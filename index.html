@@ -49,11 +49,11 @@
     <section>
         <div id="about-us">
             <h2>About Us</h2>
-            <p> ChordConnect provides high-quality one-to-one online guitar lessons for learners of all ages and skill levels.
+            <p> ChordConnect <i class="fa-solid fa-guitar fa-lg"></i> provides high-quality one-to-one online guitar lessons for learners of all ages and skill levels.
                 We are a group of professional guitarists, each with our own distinct musical style. 
                 "Rock, Jazz and Blues" are our most popular classes.
-                All newcomers receive FREE 30-minute lessons!
-                To give you a taste of the programme, your assigned tutor will recommend the level that is most appropriate for you.
+                All newcomers receive FREE 50-minute lessons to give you a taste of the programme!
+                Your tutor will then recommend the appropriate level for you - Beginner, Intermediate or Advanced.
                 So, what are you waiting for? Let the music take control and jam with us!
             </p>
         </div>
@@ -67,7 +67,7 @@
                 <h3>Ollie | ChordConnect Head Tutor & Founder | Rock-style</h3>
                 <p>
                     Hey Rockstars!
-                    I'm Oliver (Ollie), the father of ChordConnect and I teach Rock-style.
+                    I'm Oliver (Ollie), the father of ChordConnect <i class="fa-solid fa-guitar fa-lg"></i> and I teach Rock-style.
                     Been a Rockstar all my life, thanks to my parents, who were both members of the famous British band "Ollie and the Sprites" and took me on all of their tours and shows.
                     Then, 2 years ago, I created ChordConnect with my old band mates to teach the next generation of mini-me's all the guitar knowledge I've collected over my headbangin' rockin' years.
                     ChordConnect with me and Rock on!
@@ -78,7 +78,7 @@
                 <h3>Hazel | The Jivin' Free Spirit | Jazz-style</h3>
                 <p> 
                     Hello, Lovelies!
-                    My name is Hazel, the non-stop poppin' and jivin' tutor at ChordConnect and I teach Jazz-style.
+                    My name is Hazel, the non-stop poppin' and jivin' tutor at ChordConnect <i class="fa-solid fa-guitar fa-lg"></i> and I teach Jazz-style.
                     Jazz music was played endlessly on my father's vintage vinyl player when I was a kid.
                     "Jazz is the music of the soul", he taught me, and it's what shaped me into the person I am today.
                     It has helped me through both good and bad times, and I hope to share that feeling with you.
@@ -93,7 +93,7 @@
                     The name's Mason, your friendly neighborhood Guitarman and I teach Blues-style. 
                     Prior to being dubbed "Guitarman", I was a HORRIBLE player of the instrument. 
                     At one point, I completely gave it up and told myself that, "it just wasn't my calling".
-                    Until one hot summer day, a friend recommended ChordConnect to me and the rest is history.
+                    Until one hot summer day, a friend recommended ChordConnect <i class="fa-solid fa-guitar fa-lg"></i> to me and the rest is history.
                     It may be frustrating now, but learning to play the guitar is highly rewarding.
                     ChordConnect with me for your daily guitar fix!
                 </p>
@@ -110,7 +110,7 @@
                 <p>
                     "Learning to play the guitar has never been easier.
                     It had been on my bucket list for years because I never had the time to learn it due to my extensive travel for work.
-                    ChordConnect, on the other hand, is available to you no matter where you are in the world.
+                    ChordConnect <i class="fa-solid fa-guitar fa-lg"></i>, on the other hand, is available to you no matter where you are in the world.
                     The tutors are accommodating when it comes to scheduling lessons and truly helpful at every stage of learning."
                 </p>
             </div>
@@ -120,7 +120,7 @@
                 <p>
                     "I want to be a great guitar player just like my Papá.
                     He bought me my first guitar on my 8th birthday but it was very hard to understand it; not even my Papá's teaching would work!
-                    But then My Papá signed me up for ChordConnect and now I'm a master of so many guitar chords and songs.
+                    But then My Papá signed me up for ChordConnect <i class="fa-solid fa-guitar fa-lg"></i> and now I'm a master of so many guitar chords and songs.
                     I couldn't have done it without the teachers' kindness and patience with me.
                     My first performance will be at my school's talent show and I will become even better than Papá!"
                 </p>
@@ -141,6 +141,41 @@
     <section>
         <div id="chordconnector-form">
             <h2>New ChordConnector Form</h2>
+            <form action="" method="POST">
+                <div class="">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" placeholder="Your First Name" name="full_name">
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" placeholder="Your Last Name" name="last_name">
+                </div>
+                <div class="">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="name@example.com" name="email_address">
+                </div>
+                <div>
+                    <label for="guitar-skill-level">Your Guitar Skill Level</label>
+                    <select id="guitar-skill-level" name="guitar_skill_level">
+                        <option value="beginner" selected>Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="im-not-sure">I'm Not Sure</option>
+                </div>
+                <div>
+                    <label for="survey-question">How did you hear about us?</label>
+                    <select id="survey-question" name="how_did_you_hear_about_us">
+                        <option value="search-engine" selected>Search Engine (Google, Bing, Yahoo!, etc.)</option>
+                        <option value="social_media">Social Media (Facebook, Twitter, Instagram, etc.)</option>
+                        <option value="word-of-mouth">Word of Mouth (Friends, family, co-workers, etc.)</option>
+                        <option value="other">Other (Please specify in additional information box)</option>
+                </div>
+                <div>
+                    <label for="extra-info">Additional Information</label>
+                    <textarea name="extra_information" id="extra-info" cols="30" rows="10" placeholder="Enter any additional information here"></textarea>
+                </div>
+                <button type="submit">Sign up now</button>
+            </form>
         </div>
     </section>
     <footer>
@@ -155,7 +190,7 @@
             <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
         </div>
         <div>
-            <h2>Copyright | ChordConnect 2022</h2>
+            <h2><i class="fa-regular fa-copyright fa-lg"></i> Copyright | ChordConnect <i class="fa-solid fa-guitar fa-lg"></i> 2022</h2>
         </div>
     </footer>
 </body>
