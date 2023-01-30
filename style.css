@@ -42,6 +42,7 @@ p {
 
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 img {
@@ -73,16 +74,34 @@ header {
 
 /* Logo */
 
-.logo {
+.logo h1 {
+    font-size: 3.2rem;
+    margin: 1.5rem;
+    color: #ffffff;
+    background-color: #87614b;
+    padding: 1rem;
+    border: 0.5rem solid #ffffff;
+    border-radius: 1rem;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
     background-color: #58321C;
     margin-top: 0rem;
     padding: 0.1rem;
     box-shadow: 0 0 5px #58321C;
 }
 
-.logo h1 {
-    font-size: 3.2rem;
-    margin: 1.5rem;
-    color: #ffffff;
-    background-color: #58321C;
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 2rem;
 }
