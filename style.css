@@ -48,3 +48,16 @@ img {
     width: 100%;
     height: auto;
 }
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+section {
+    padding: 100px 0;
+}
+
