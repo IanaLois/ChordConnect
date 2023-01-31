@@ -7,6 +7,10 @@
     font-size: 62.5%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Rubik", sans-serif;
 }
@@ -70,6 +74,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    display: flex;
 }
 
 /* Logo */
@@ -118,6 +123,15 @@ nav {
     display: none;
 }
 
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 99;
+}
+
 /* Banner Text */
 
 .banner-text {
@@ -125,12 +139,13 @@ nav {
     flex-flow: column;
     align-items: center;
     background-color: #1c1c1c66;
-    margin-top: 13rem;
+    margin-top: 21rem;
     margin-left: 4.5rem;
     padding: 2.5rem;
     width: 55rem;
     text-align: center;
     border-radius: 2rem;
+    height: 24rem;
 }
 
 .banner-text h2, .banner-text p {
@@ -156,7 +171,6 @@ nav {
     font-weight: bold;
     transition: .3s ease-in-out;
 }
-
 
 /* Media Queries */
 
@@ -283,6 +297,7 @@ nav {
     .banner-text {
         margin-left: 0rem;
         width: 47rem;
+        height: 26rem;
     }
 }
 
@@ -312,17 +327,18 @@ nav {
 
 @media only screen and (max-width: 768px) {
     .banner-text {
-        margin-top: 10rem;
+        margin-top: 17rem;
         margin-left: 4rem;
         padding: 2.5rem;
         width: 29rem;
+        height: 36rem;
     }
     
 }
 
 @media only screen and (max-width: 698px) {
     .banner-text {
-        margin-top: 10rem;
+        margin-top: 17rem;
         margin-left: 0rem;
         padding: 2.5rem;
         width: 28rem;
@@ -335,7 +351,7 @@ nav {
 
 @media only screen and (max-width: 598px) {
     .banner-text {
-        margin-top: 10rem;
+        margin-top: 16rem;
         margin-left: 0rem;
         padding: 1.5rem;
         width: 23rem;
@@ -348,10 +364,11 @@ nav {
 
 @media only screen and (max-width: 498px) {
     .banner-text {
-        margin-top: 10rem;
+        margin-top: 18rem;
         margin-left: 0rem;
         padding: 1rem;
         width: 18rem;
+        height: 38rem;
     }
     .banner-text a {
         font-size: 1rem;
@@ -361,10 +378,11 @@ nav {
 
 @media only screen and (max-width: 398px) {
     .banner-text {
-        margin-top: 8rem;
+        margin-top: 16rem;
         margin-left: 0rem;
         padding: 1rem;
         width: 15rem;
+        height: 40rem;
     }
     .banner-text a {
         font-size: 1rem;
@@ -374,10 +392,11 @@ nav {
 
 @media only screen and (max-width: 353px) {
     .banner-text {
-        margin-top: 9rem;
+        margin-top: 18rem;
         margin-left: 0rem;
         padding: 1rem;
         width: 13rem;
+        height: 32rem;
     }
     .banner-text h2 {
         font-size: 1.8rem;
