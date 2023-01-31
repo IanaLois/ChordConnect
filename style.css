@@ -132,7 +132,6 @@ nav {
     align-items: center;
     background-color: #1c1c1c66;
     margin-top: 21rem;
-    margin-left: 4.5rem;
     padding: 2.5rem;
     width: 55rem;
     text-align: center;
@@ -187,18 +186,25 @@ nav {
     width: 100%;
     align-items: center;
     margin: auto;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 
 .about-middle p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     height: 44rem;
+    text-align: center;
 }
 
 .about-left ,
 .about-middle ,
 .about-right {
     flex-basis: 30%;
+}
+
+.about-left img,
+.about-right img {
+    height: auto;
+    margin-top: -13.5rem;
 }
 
 
@@ -316,41 +322,9 @@ nav {
 
 /* Media Queries - Banner Text */
 
-@media only screen and (max-width: 1235px) {
-    .banner-text {
-        margin-left: 0rem;
-        width: 53rem;
-    }
-}
-
-@media only screen and (max-width: 1083px) {
-    .banner-text {
-        margin-left: 0rem;
-        width: 47rem;
-        height: 26rem;
-    }
-}
-
 @media only screen and (max-width: 1024px) {
     .banner-text {
-        margin-left: 2rem;
         width: 45rem;
-        padding: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 980px) {
-    .banner-text {
-        margin-left: 0rem;
-        width: 42rem;
-        padding: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 878px) {
-    .banner-text {
-        margin-left: 0rem;
-        width: 36rem;
         padding: 1.5rem;
     }
 }
@@ -358,7 +332,6 @@ nav {
 @media only screen and (max-width: 768px) {
     .banner-text {
         margin-top: 17rem;
-        margin-left: 4rem;
         padding: 2.5rem;
         width: 29rem;
         height: 36rem;
@@ -366,53 +339,12 @@ nav {
     
 }
 
-@media only screen and (max-width: 698px) {
+@media only screen and (max-width: 426px) {
     .banner-text {
         margin-top: 17rem;
-        margin-left: 0rem;
-        padding: 2.5rem;
-        width: 28rem;
-    }
-    .banner-text a {
-        font-size: 1.5rem;
-        padding: 0.5rem;
-    }
-}
-
-@media only screen and (max-width: 598px) {
-    .banner-text {
-        margin-top: 16rem;
-        margin-left: 0rem;
-        padding: 1.5rem;
-        width: 23rem;
-    }
-    .banner-text a {
-        font-size: 1.3rem;
-        padding: 0.3rem;
-    }
-}
-
-@media only screen and (max-width: 498px) {
-    .banner-text {
-        margin-top: 18rem;
-        margin-left: 0rem;
         padding: 1rem;
-        width: 18rem;
+        width: 19rem;
         height: 38rem;
-    }
-    .banner-text a {
-        font-size: 1rem;
-        padding: 0.1rem;
-    }
-}
-
-@media only screen and (max-width: 398px) {
-    .banner-text {
-        margin-top: 16rem;
-        margin-left: 0rem;
-        padding: 1rem;
-        width: 15rem;
-        height: 40rem;
     }
     .banner-text a {
         font-size: 1rem;
@@ -437,5 +369,65 @@ nav {
     .banner-text a {
         font-size: 1rem;
         padding: 0.1rem;
+    }
+}
+
+/* Media Queries - About Us */
+
+@media only screen and (max-width: 1095px) {
+    .about-middle p {
+        font-size: 1.6rem;
+        height: 44rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .about-middle p {
+        font-size: 1.5rem;
+        height: 44rem;
+    }
+}
+
+@media only screen and (max-width: ) {
+    .about-middle p {
+        font-size: 1.45rem;
+        height: 44rem;
+    }
+    .about-left ,
+    .about-middle ,
+    .about-right {
+        flex-basis: 25%;
+    }
+    .about-middle {
+        flex-grow: 0.7;
+    }
+    .about-us-subheading h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: ) {
+    .about-middle p {
+        font-size: 1.45rem;
+        height: 44rem;
+    }
+    .about-left ,
+    .about-middle ,
+    .about-right {
+        flex-basis: 25%;
+    }
+    .about-middle {
+        flex-grow: 0.7;
+    }
+    .about-us-subheading h2 {
+        font-size: 1.8rem;
+    }
+    .about-us-layout {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: auto;
+        flex-flow: column nowrap;
     }
 }
