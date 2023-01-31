@@ -7,7 +7,6 @@
     <meta name="description" content="ChordConnect, one to one online guitar lessons for all ages and all skill levels">
     <meta name="keywords" content="online guitar lessons, beginner guitar lessons, intermediate guitar lessons, advanced guitar lessons">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/7216a39cef.js" crossorigin="anonymous"></script>
     <title>ChordConnect</title>
 </head>
 <body>
@@ -36,6 +35,9 @@
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+            <button class="navbar_toggle">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </button>
         </nav>
     </header>
     <section>
@@ -146,17 +148,17 @@
                 <legend>Your details</legend>
                 <br>
                     <div class="">
-                        <label for="fname"><h4>First Name</h4></label>
+                        <h4><label for="fname">First Name</label></h4>
                         <input type="text" id="fname" placeholder="Your First Name" name="full_name" required>
                     </div>
                     <br>
                     <div>
-                        <label for="lname"><h4>Last Name</h4></label>
+                        <h4><label for="lname">Last Name</label></h4>
                         <input type="text" id="lname" placeholder="Your Last Name" name="last_name" required>
                     </div>
                     <br>
                     <div class="">
-                        <label for="email"><h4>Email Address</h4></label>
+                        <h4><label for="email">Email Address</label></h4>
                         <input type="email" id="email" placeholder="name@example.com" name="email_address" required>
                     </div>
                     
@@ -166,7 +168,7 @@
                 <legend>Questions</legend>
                 <br>
                     <div>
-                        <label for="guitar-skill-level"><h4>Your Guitar Skill Level</h4></label>
+                        <h4><label for="guitar-skill-level">Your Guitar Skill Level</label></h4>
                         <select id="guitar-skill-level" name="guitar_skill_level">
                             <option value="beginner" selected>Beginner</option>
                             <option value="intermediate">Intermediate</option>
@@ -176,7 +178,7 @@
                     </div>
                     <br>
                     <div>
-                        <label for="survey-question"><h4>How did you hear about us?</h4></label>
+                        <h4><label for="survey-question">How did you hear about us?</label></h4>
                         <select id="survey-question" name="how_did_you_hear_about_us">
                             <option value="search-engine" selected>Search Engine (Google, Bing, Yahoo!, etc.)</option>
                             <option value="social_media">Social Media (Facebook, Twitter, Instagram, etc.)</option>
@@ -190,7 +192,7 @@
                     <legend>Your Message</legend>
                     <br>
                     <div>
-                        <label for="extra-info"><h4>Additional Information</h4></label>
+                        <h4><label for="extra-info">Additional Information</label></h4>
                         <textarea name="extra_information" id="extra-info" cols="30" rows="10" placeholder="Enter any additional information here"></textarea>
                     </div>
                 </fieldset>
@@ -214,5 +216,7 @@
             <h2><i class="fa-regular fa-copyright fa-lg"></i> Copyright | ChordConnect <i class="fa-solid fa-guitar fa-lg"></i> 2022</h2>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/7216a39cef.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>
