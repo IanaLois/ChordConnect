@@ -118,6 +118,26 @@ nav {
     display: none;
 }
 
+/* Banner Text */
+
+.banner-text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #4726;
+    margin-top: 13rem;
+    margin-left: 0rem;
+    padding: 2.5rem;
+    width: 57rem;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Media Queries */
 
 @media only screen and (max-width: 897px) {
     .logo h1 {
