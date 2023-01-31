@@ -126,7 +126,7 @@ nav {
     align-items: center;
     background-color: #1c1c1c66;
     margin-top: 13rem;
-    margin-left: 6.5rem;
+    margin-left: 4.5rem;
     padding: 2.5rem;
     width: 55rem;
     text-align: center;
@@ -256,92 +256,85 @@ nav {
 
 /* Media Queries - Banner Text */
 
-@media only screen and (max-width: 1145px) {
+@media only screen and (max-width: 1235px) {
     .banner-text {
-        margin-top: 13rem;
         margin-left: 0rem;
-        padding: 2.5rem;
-        width: 49rem;
+        width: 53rem;
     }
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1083px) {
     .banner-text {
-        margin-top: 13rem;
         margin-left: 0rem;
-        padding: 2.5rem;
+        width: 47rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner-text {
+        margin-left: 2rem;
         width: 45rem;
+        padding: 1.5rem;
     }
 }
 
-@media only screen and (max-width: 955px) {
+@media only screen and (max-width: 980px) {
     .banner-text {
-        margin-top: 13rem;
         margin-left: 0rem;
-        padding: 2.5rem;
-        width: 41rem;
+        width: 42rem;
+        padding: 1.5rem;
     }
 }
 
-@media only screen and (max-width: 874px) {
+@media only screen and (max-width: 878px) {
     .banner-text {
-        margin-top: 13rem;
         margin-left: 0rem;
-        padding: 2.5rem;
-        width: 37rem;
+        width: 36rem;
+        padding: 1.5rem;
     }
 }
 
-@media only screen and (max-width: 794px) {
+@media only screen and (max-width: 768px) {
     .banner-text {
-        margin-top: 13rem;
-        margin-left: 0rem;
-        padding: 2.5rem;
-        width: 33rem;
-    }
-}
-
-@media only screen and (max-width: 715px) {
-    .banner-text {
-        margin-top: 12rem;
-        margin-left: 0rem;
+        margin-top: 10rem;
+        margin-left: 4rem;
         padding: 2.5rem;
         width: 29rem;
     }
 }
 
-@media only screen and (max-width: 631px) {
+@media only screen and (max-width: 698px) {
     .banner-text {
-        margin-top: 11rem;
+        margin-top: 10rem;
         margin-left: 0rem;
         padding: 2.5rem;
-        width: 25rem;
+        width: 28rem;
     }
 }
 
-@media only screen and (max-width: 554px) {
+@media only screen and (max-width: 598px) {
     .banner-text {
-        margin-top: 8rem;
-        margin-left: 0rem;
-        padding: 2.5rem;
-        width: 21rem;
-    }
-}
-
-@media only screen and (max-width: 474px) {
-    .banner-text {
-        margin-top: 7rem;
+        margin-top: 10rem;
         margin-left: 0rem;
         padding: 1.5rem;
-        width: 17rem;
+        width: 23rem;
     }
 }
 
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 498px) {
+    .banner-text {
+        margin-top: 10rem;
+        margin-left: 0rem;
+        padding: 1rem;
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 398px) {
     .banner-text {
         margin-top: 8rem;
         margin-left: 0rem;
-        padding: 0.5rem;
+        padding: 1rem;
         width: 15rem;
     }
 }
@@ -350,7 +343,7 @@ nav {
     .banner-text {
         margin-top: 9rem;
         margin-left: 0rem;
-        padding: 0.5rem;
+        padding: 1rem;
         width: 13rem;
     }
     .banner-text h2 {
