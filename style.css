@@ -54,14 +54,6 @@ img {
     height: auto;
 }
 
-.layout {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    align-items: center;
-    margin: auto;
-}
-
 section {
     padding: 100px 0;
 }
@@ -171,6 +163,44 @@ nav {
     font-weight: bold;
     transition: .3s ease-in-out;
 }
+
+/* About Us Section */
+
+.about-us-subheading {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.about-us-subheading h2 {
+    border: 0.3rem solid #58321C;
+    border-radius: 0.5rem;
+    box-shadow: -1px 5px 1px #58321C;
+    padding: 1.5rem;
+    color: #ffffff;
+    background-color: #87614b;
+}
+
+.about-us-layout {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    flex-flow: row wrap;
+}
+
+.about-middle p {
+    font-size: 1.5rem;
+    height: 44rem;
+}
+
+.about-left ,
+.about-middle ,
+.about-right {
+    flex-basis: 30%;
+}
+
 
 /* Media Queries */
 
