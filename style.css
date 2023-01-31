@@ -97,19 +97,19 @@ nav {
     opacity: 0.9;
 }
 
-nav ul {
+.main_nav {
     list-style-type: none;
     margin: 1.5rem 1rem;
 }
 
-nav ul li {
+.main_nav li {
     display: inline-block;
     margin-left: 1rem;
     font-size: 3.2rem;
     padding: 1rem;
 }
 
-nav ul li a:hover {
+.main_nav li a:hover {
     color: #87614b;
     transition: .1s ease-in-out;
 }
@@ -117,6 +117,7 @@ nav ul li a:hover {
 .navbar_toggle {
     display: none;
 }
+
 
 @media only screen and (max-width: 897px) {
     .logo h1 {
@@ -138,7 +139,7 @@ nav ul li a:hover {
         box-shadow: 0 1px 5px #58321C;
         opacity: 0.9;
     }
-    nav ul {
+    .main_nav {
         display: none;
     }
     .navbar_toggle {
@@ -151,6 +152,13 @@ nav ul li a:hover {
         transition: all 0.3s linear;
         cursor: pointer;
         display: block;
+    }
+    .show_nav{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-flow: column wrap;
+        align-items: center;
     }
 }
 
@@ -174,7 +182,7 @@ nav ul li a:hover {
         box-shadow: 0 1px 5px #58321C;
         opacity: 0.9;
     }
-    nav ul {
+    .main_nav {
         display: none;
     }
     .navbar_toggle {
@@ -187,6 +195,13 @@ nav ul li a:hover {
         transition: all 0.3s linear;
         cursor: pointer;
         display: block;
+    }
+    .show_nav{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-flow: column wrap;
+        align-items: center;
     }
 }
 
@@ -210,7 +225,7 @@ nav ul li a:hover {
         box-shadow: 0 1px 5px #58321C;
         opacity: 0.9;
     }
-    nav ul {
+    .main_nav {
         display: none;
     }
     .navbar_toggle {
@@ -223,6 +238,13 @@ nav ul li a:hover {
         transition: all 0.3s linear;
         cursor: pointer;
         display: block;
+    }
+    .show_nav{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-flow: column wrap;
+        align-items: center;
     }
 }
 
@@ -246,7 +268,7 @@ nav ul li a:hover {
         box-shadow: 0 1px 5px #58321C;
         opacity: 0.9;
     }
-    nav ul {
+    .main_nav {
         display: none;
     }
     .navbar_toggle {
@@ -259,5 +281,12 @@ nav ul li a:hover {
         transition: all 0.3s linear;
         cursor: pointer;
         display: block;
+    }
+    .show_nav{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-flow: column wrap;
+    align-items: center;
     }
 }
