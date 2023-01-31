@@ -139,8 +139,24 @@ nav {
 }
 
 .banner-text a {
-    border
+    border: 0.3rem solid #ffffff;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    color: #000;
+    background-color: #ffffff;
+    font-weight: bold;
 }
+
+.banner-text a:hover {
+    border: 0.3rem solid #ffffff;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: #1c1c1c66;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
 
 /* Media Queries */
 
@@ -301,6 +317,7 @@ nav {
         padding: 2.5rem;
         width: 29rem;
     }
+    
 }
 
 @media only screen and (max-width: 698px) {
@@ -309,6 +326,10 @@ nav {
         margin-left: 0rem;
         padding: 2.5rem;
         width: 28rem;
+    }
+    .banner-text a {
+        font-size: 1.5rem;
+        padding: 0.5rem;
     }
 }
 
@@ -319,6 +340,10 @@ nav {
         padding: 1.5rem;
         width: 23rem;
     }
+    .banner-text a {
+        font-size: 1.3rem;
+        padding: 0.3rem;
+    }
 }
 
 @media only screen and (max-width: 498px) {
@@ -328,6 +353,10 @@ nav {
         padding: 1rem;
         width: 18rem;
     }
+    .banner-text a {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
 }
 
 @media only screen and (max-width: 398px) {
@@ -336,6 +365,10 @@ nav {
         margin-left: 0rem;
         padding: 1rem;
         width: 15rem;
+    }
+    .banner-text a {
+        font-size: 1rem;
+        padding: 0.1rem;
     }
 }
 
@@ -353,6 +386,7 @@ nav {
         font-size: 1.2rem;
     }
     .banner-text a {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        padding: 0.1rem;
     }
 }
