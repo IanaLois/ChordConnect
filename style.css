@@ -4,10 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
-}
-
-html {
+    font-size: 62.5%;    
     scroll-behavior: smooth;
 }
 
@@ -207,7 +204,6 @@ nav {
     margin-top: -13.5rem;
 }
 
-
 /* Media Queries */
 
 /* Media Queries - Navbar */
@@ -374,60 +370,100 @@ nav {
 
 /* Media Queries - About Us */
 
-@media only screen and (max-width: 1095px) {
-    .about-middle p {
-        font-size: 1.6rem;
-        height: 44rem;
-    }
-}
-
 @media only screen and (max-width: 1025px) {
     .about-middle p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         height: 44rem;
+        width: 46rem;
     }
-}
-
-@media only screen and (max-width: ) {
-    .about-middle p {
-        font-size: 1.45rem;
-        height: 44rem;
+    #about-us {
+        margin-top: -9.2rem;
+    }
+    .about-us-subheading h2 {
+        font-size: 2rem;
     }
     .about-left ,
     .about-middle ,
     .about-right {
-        flex-basis: 25%;
-    }
-    .about-middle {
-        flex-grow: 0.7;
-    }
-    .about-us-subheading h2 {
-        font-size: 1.8rem;
+    flex-basis: 25%;
     }
 }
 
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 851px) {
     .about-middle p {
-        font-size: 1.45rem;
+        font-size: 1.65rem;
         height: 44rem;
+        width: 30rem;
     }
-    .about-left ,
-    .about-middle ,
-    .about-right {
-        flex-basis: 25%;
+    #about-us {
+        margin-top: -9.2rem;
     }
-    .about-middle {
-        flex-grow: 0.7;
-    }
-    .about-us-subheading h2 {
-        font-size: 1.8rem;
-    }
-    .about-us-layout {
+    .about-us-subheading {
         display: flex;
-        justify-content: space-between;
-        width: 100%;
-        align-items: center;
-        margin: auto;
-        flex-flow: column nowrap;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+    .about-us-subheading h2 {
+        font-size: 1.7rem;
+    }
+    .about-left ,
+    .about-middle ,
+    .about-right {
+    flex-basis: 27.8%;
+    }
+    .about-left img, 
+    .about-right img {
+        height: auto;
+        margin-top: -5.5rem;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .about-left img, 
+    .about-right img {
+        height: auto;
+        margin-top: -5.5rem;
+        display: none;
+    }
+    .about-middle p {
+        font-size: 1.65rem;
+        height: 24rem;
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    .about-left img, 
+    .about-right img {
+        height: auto;
+        margin-top: -5.5rem;
+        display: none;
+    }
+    .about-middle p {
+        font-size: 1.65rem;
+        height: 24rem;
+        width: 30rem;
+        padding: 1rem;
+    }
+    #about-us {
+        margin-top: -8.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .about-left img, 
+    .about-right img {
+        height: auto;
+        margin-top: -5.5rem;
+        display: none;
+    }
+    .about-middle p {
+        font-size: 1.65rem;
+        height: 24rem;
+        width: 30rem;
+        padding: 1rem;
+    }
+    #about-us {
+        margin-top: -8.3rem;
     }
 }
