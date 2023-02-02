@@ -555,3 +555,23 @@ flip-card-front > img {
         margin-top: -8rem;
     }
 }
+
+/* Media Queries - Tutor */
+
+@media only screen and (max-width: 769px) {
+    #tutors {
+        margin-top: -17rem;
+    }
+    .flip-card-back h3 {
+        font-size: 1.5rem;
+    }
+    .flip-card-back p {
+        font-size: 1.3rem;
+    }
+    .flip-card-back {
+        height: 38rem;
+    }
+    .tutors-subheading h2 {
+        font-size: 1.7rem;
+    }
+}
