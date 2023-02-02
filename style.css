@@ -213,6 +213,11 @@ nav {
     margin-top: -10rem;
 }
 
+#tutors > p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .tutors-subheading {
     display: flex;
     justify-content: center;
@@ -274,10 +279,15 @@ nav {
     background-color: #93715d;
     color: #000;
     transform: rotateY(180deg);
-    height: 51rem;
+    height: 45rem;
     padding: 1rem;
     border: 3px solid #93715d;
     border-radius: 5px;
+}
+
+.flip-card-back p {
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 flip-card-front > img {
