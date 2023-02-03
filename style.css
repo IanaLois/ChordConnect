@@ -442,13 +442,13 @@ flip-card-front > img {
         padding: 1rem;
     }
     #about-us {
-        margin-top: -8.3rem;
+        margin-top: -8.4rem;
     }
 }
 
 @media only screen and (max-width: 320px) {
     #about-us {
-        margin-top: -8rem;
+        margin-top: -8.2rem;
     }
 }
 
@@ -506,5 +506,11 @@ flip-card-front > img {
     }
     .flip-card-back h3 {
         font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    #tutors {
+        margin-top: 4rem;
     }
 }
