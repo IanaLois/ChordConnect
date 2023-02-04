@@ -348,7 +348,6 @@ flip-card-front > img {
 .testimony-image img {
     width: auto;
     height: 100%;
-    
 }
 
 .testimony-text {
@@ -589,11 +588,23 @@ flip-card-front > img {
     .testimonials-subheading h2 {
         font-size: 2rem;
     }
+    .testimony-text > div > h3 {
+        font-size: 3rem;
+    }
+    .testimonials-layout {
+        margin-top: -9rem;
+    }    
+    #testimonials .testimonials-content {
+        margin-bottom: -6.5rem;
+    }
 }
 
 @media only screen and (max-width: 851px) {
     .testimonials-subheading h2 {
         font-size: 1.7rem;
+    }
+    .testimony-text p {
+        font-size: 1.5rem;
     }
 }
 
@@ -607,6 +618,9 @@ flip-card-front > img {
     .testimony-text p {
         font-size: 1.3rem;
     }
+    #testimonials .testimonials-content {
+        margin-bottom: -6rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -618,15 +632,34 @@ flip-card-front > img {
     }
     .testimonials-layout {
         margin-top: -9rem;
+    }    
+    .testimony-text h3 {
+        font-size: 1.6rem;
+    }
+    .testimony-text > div > h3 {
+        font-size: 2.5rem;
+    }
+    .testimony-image {
+        width: 180px;
+        height: 180px;
+    }
+    #testimonials .testimonials-content {
+        margin-bottom: -5.5rem;
     }
 }
 
 @media only screen and (max-width: 413px) {
     .testimony-image {
-    width: 160px;
-    height: 160px;
+        width: 150px;
+        height: 150px;
+    }
+    .testimony-text > div > h3 {
+        margin-top: -0.5rem;
     }
     .testimony-text h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+    #testimonials .testimonials-content {
+        margin-bottom: -5rem;
     }
 }
