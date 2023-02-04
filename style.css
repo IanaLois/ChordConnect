@@ -298,8 +298,8 @@ flip-card-front > img {
 /* Testimonials */
 
 #testimonials {
-    margin-top: 7rem;
-    background-color: #ffffff;
+    margin-top: 15rem;
+    background-color: #87614b;
 }
 
 .testimonials-subheading {
@@ -327,7 +327,7 @@ flip-card-front > img {
 
 #testimonials .testimonials-content {
     background-color: #87614b;
-    padding: 5rem;
+    padding: 3rem;
     margin: 8rem 0;
     display: flex;
     flex-flow: column;
@@ -579,7 +579,50 @@ flip-card-front > img {
     }
 }
 
+/* Media Queries - Testimonials */
+
+@media only screen and (max-width: 1025px) {
+    .testimonials-subheading h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 851px) {
+    .testimonials-subheading h2 {
+        font-size: 1.7rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #testimonials {
+        margin-top: 9rem;
+    }
+    .testimonials-layout {
+        margin-top: -8rem;
+    }
+    .testimony-text p {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #testimonials {
+        margin-top: -2rem;
+    }
+    .testimonials-subheading {
         margin-top: -1rem;
+    }
+    .testimonials-layout {
+        margin-top: -9rem;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    .testimony-image {
+    width: 160px;
+    height: 160px;
+    }
+    .testimony-text h3 {
+        font-size: 1.5rem;
+    }
 }
