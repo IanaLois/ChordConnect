@@ -359,6 +359,10 @@ flip-card-front > img {
     color: #ffffff;
 }
 
+.testimony-text > div > h3 {
+    font-size: 3.5rem;
+}
+
 /* Media Queries */
 
 /* Media Queries - Navbar */
