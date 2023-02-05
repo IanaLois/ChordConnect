@@ -174,7 +174,7 @@ nav {
 .about-us-subheading h2 {
     border: 0.3rem solid #58321C;
     border-radius: 0.5rem;
-    box-shadow: -1px 5px 1px #58321C;
+    box-shadow: -10px 10px 1px #58321C;
     padding: 1.5rem;
     color: #ffffff;
     background-color: #87614b;
@@ -227,7 +227,7 @@ nav {
 .tutors-subheading h2 {
     border: 0.3rem solid #58321C;
     border-radius: 0.5rem;
-    box-shadow: -1px 5px 1px #58321C;
+    box-shadow: -10px 10px 1px #58321C;
     padding: 1.5rem;
     color: #ffffff;
     background-color: #87614b;
@@ -311,7 +311,7 @@ flip-card-front > img {
 .testimonials-subheading h2 {
     border: 0.3rem solid #58321C;
     border-radius: 0.5rem;
-    box-shadow: -1px 5px 1px #58321C;
+    box-shadow: -10px 10px 1px #58321C;
     padding: 1.5rem;
     color: #ffffff;
     background-color: #87614b;
