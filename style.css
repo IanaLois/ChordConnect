@@ -346,7 +346,6 @@ flip-card-front > img {
 }
 
 .testimony-image img {
-    width: auto;
     height: 100%;
 }
 
@@ -433,7 +432,7 @@ flip-card-front > img {
         height: 38rem;
     }
     .banner-text a {
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 0.1rem;
     }
 }
@@ -442,14 +441,14 @@ flip-card-front > img {
     .banner-text {
         margin-top: 18rem;
         margin-left: 0rem;
-        width: 13rem;
+        width: 15rem;
         height: 32rem;
     }
     .banner-text h2 {
         font-size: 1.8rem;
     }
     .banner-text p {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -506,7 +505,7 @@ flip-card-front > img {
 
 @media only screen and (max-width: 413px) {
     .about-middle p {
-        padding: 1rem;
+        padding: 0.1rem;
     }
     #about-us {
         margin-top: -8.4rem;
@@ -544,13 +543,10 @@ flip-card-front > img {
         margin-top: -17rem;
     }
     .flip-card-back h3 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .flip-card-back p {
-        font-size: 1.3rem;
-    }
-    .flip-card-back {
-        height: 44rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -566,19 +562,13 @@ flip-card-front > img {
     }
     .flip-card {
         width: 26rem;
-        margin-bottom: 12rem;
-    }
-    .flip-card-back {
-        height: 40rem;
-    }
-    .flip-card-back h3 {
-        font-size: 1.6rem;
+        margin-bottom: 23rem;
     }
 }
 
 @media only screen and (max-width: 413px) {
     #tutors {
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
 }
 
@@ -616,7 +606,7 @@ flip-card-front > img {
         margin-top: -8rem;
     }
     .testimony-text p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     #testimonials .testimonials-content {
         margin-bottom: -6rem;
@@ -655,9 +645,6 @@ flip-card-front > img {
     }
     .testimony-text > div > h3 {
         margin-top: -0.5rem;
-    }
-    .testimony-text h3 {
-        font-size: 1.4rem;
     }
     #testimonials .testimonials-content {
         margin-bottom: -5rem;
