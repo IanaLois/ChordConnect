@@ -361,6 +361,10 @@ flip-card-front > img {
     font-size: 3.5rem;
 }
 
+.testimony-text p {
+    margin: 0 40rem;
+}
+
 /* Media Queries */
 
 /* Media Queries - Navbar */
@@ -574,6 +578,13 @@ flip-card-front > img {
 
 /* Media Queries - Testimonials */
 
+@media only screen and (max-width: 1061px) {
+    .testimony-text p {
+        margin: 0 25rem;
+    }
+}
+
+
 @media only screen and (max-width: 1025px) {
     .testimonials-subheading h2 {
         font-size: 2rem;
@@ -587,6 +598,9 @@ flip-card-front > img {
     #testimonials .testimonials-content {
         margin-bottom: -6.5rem;
     }
+    .testimony-text p {
+        margin: 0 20rem;
+    }
 }
 
 @media only screen and (max-width: 851px) {
@@ -595,6 +609,7 @@ flip-card-front > img {
     }
     .testimony-text p {
         font-size: 1.5rem;
+        margin: 0 15rem;
     }
 }
 
@@ -607,6 +622,7 @@ flip-card-front > img {
     }
     .testimony-text p {
         font-size: 1.4rem;
+        margin: 0 10rem;
     }
     #testimonials .testimonials-content {
         margin-bottom: -6rem;
@@ -635,6 +651,9 @@ flip-card-front > img {
     }
     #testimonials .testimonials-content {
         margin-bottom: -5.5rem;
+    }
+    .testimony-text p {
+        margin: 0 5rem;
     }
 }
 
