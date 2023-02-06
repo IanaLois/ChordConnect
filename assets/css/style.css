@@ -447,11 +447,12 @@ form button:active {
 footer {
     background-color: #694733;
     width: 100%;
-    height: 20rem;
+    height: 62.5rem;
     display: flex;
     justify-content: space-around;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     padding: 0.1rem;
+    text-align: center;
 }
 
 footer h2 {
@@ -479,6 +480,10 @@ footer h2 {
     font-size: 1.6rem;
     font-weight: 400;
     color: #ffffff;
+}
+
+.copyright h2 {
+    font-size: 1.5rem;
 }
 
 /* Media Queries */
@@ -870,3 +875,23 @@ footer h2 {
 
 /* Media Queries - Footer */
 
+@media only screen and (max-width: 1025px) {
+    footer {
+        height: 30rem;
+    }
+    footer h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 913px) {
+    footer h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 459px) {
+    footer {
+        height: 36rem;
+    }
+}
