@@ -9,7 +9,7 @@
     <meta name="keywords" content="online guitar lessons, beginner guitar lessons, intermediate guitar lessons, advanced guitar lessons">
     
     <!--Link to CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
     <!--Webpage Title-->
     <title>ChordConnect</title>
@@ -40,7 +40,7 @@
                     <a href="#testimonials">Testimonials</a>
                 </li>
                 <li>
-                    <a href="#chordconnector-form">Sign Up</a>
+                    <a href="#sign-up-form">Sign Up</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -256,67 +256,62 @@
     </section>
     <!--End of Testimonials-->
 
-    <section>
-        <div id="chordconnector-form">
-            <h2>ChordConnector Form</h2>
+    <!--Sign Up Form-->
+    <section id="sign-up-form">
+        <div class="sign-up-subheading">
+            <h2>Sign Up Form</h2>
+        </div>
+        <div class="sign-up-layout">
+            <div class="form-back">
             <form action="https://formdump.codeinstitute.net" method="POST">
-                <fieldset>
-                <legend>Your details</legend>
+                <div class="form-content">
+                    <p><label for="fname">First Name</label></p>
+                    <input type="text" id="fname" placeholder="Your First Name" name="full_name" required>
+                </div>
                 <br>
-                    <div class="">
-                        <p><label for="fname">First Name</label></p>
-                        <input type="text" id="fname" placeholder="Your First Name" name="full_name" required>
-                    </div>
-                    <br>
-                    <div>
-                        <p><label for="lname">Last Name</label><p>
-                        <input type="text" id="lname" placeholder="Your Last Name" name="last_name" required>
-                    </div>
-                    <br>
-                    <div class="">
-                        <p><label for="email">Email Address</label></p>
-                        <input type="email" id="email" placeholder="name@example.com" name="email_address" required>
-                    </div>
-                    
-                </fieldset>
+                <div class="form-content">
+                    <p><label for="lname">Last Name</label><p>
+                    <input type="text" id="lname" placeholder="Your Last Name" name="last_name" required>
+                </div>
                 <br>
-                <fieldset>
-                <legend>Questions</legend>
+                <div class="form-content">
+                    <p><label for="email">Email Address</label></p>
+                    <input type="email" id="email" placeholder="name@example.com" name="email_address" required>
+                </div>
                 <br>
-                    <div>
-                        <p><label for="guitar-skill-level">Your Guitar Skill Level</label></p>
-                        <select id="guitar-skill-level" name="guitar_skill_level">
-                            <option value="beginner" selected>Beginner</option>
-                            <option value="intermediate">Intermediate</option>
-                            <option value="advanced">Advanced</option>
-                            <option value="im-not-sure">I'm Not Sure</option>
-                        </select>
-                    </div>
-                    <br>
-                    <div>
-                        <p><label for="survey-question">How did you hear about us?</label></p>
-                        <select id="survey-question" name="how_did_you_hear_about_us">
-                            <option value="search-engine" selected>Search Engine (Google, Bing, Yahoo!, etc.)</option>
-                            <option value="social_media">Social Media (Facebook, Twitter, Instagram, etc.)</option>
-                            <option value="word-of-mouth">Word of Mouth (Friends, family, co-workers, etc.)</option>
-                            <option value="other">Other (Please specify in additional information box)</option>
-                        </select>
-                    </div>
-                </fieldset>
-                    <br>
-                    <fieldset>                
-                    <legend>Your Message</legend>
-                    <br>
-                    <div>
-                        <p><label for="extra-info">Additional Information</label></p>
-                        <textarea name="extra_information" id="extra-info" cols="30" rows="10" placeholder="Enter any additional information here"></textarea>
-                    </div>
-                </fieldset>
+                <div class="form-content">
+                    <p><label for="guitar-skill-level">Your Guitar Skill Level</label></p>
+                    <select id="guitar-skill-level" name="guitar_skill_level" class="guitar-skill-level-input">
+                        <option value="beginner" selected>Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="im-not-sure">I'm Not Sure</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-content">
+                    <p><label for="survey-question">How did you hear about us?</label></p>
+                    <select id="survey-question" name="how_did_you_hear_about_us" class="survey-input">
+                        <option value="search-engine" selected>Search Engine (Google, Bing, Yahoo!, etc.)</option>
+                        <option value="social_media">Social Media (Facebook, Twitter, Instagram, etc.)</option>
+                        <option value="word-of-mouth">Word of Mouth (Friends, family, co-workers, etc.)</option>
+                        <option value="other">Other (Please specify in additional information box)</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-content">
+                    <p><label for="extra-info">Additional Information</label></p>
+                    <textarea name="extra_information" id="extra-info" cols="30" rows="10" placeholder="Enter any additional information here" class="extra-info-input"></textarea>
+                </div>
                 <br>
                 <button type="submit">Sign up now</button>
             </form>
+            </div>
         </div>
     </section>
+    <!--End of Sign Up Form-->
+
+
     <footer>
         <div id="contact">
             <h2>Contact</h2>
