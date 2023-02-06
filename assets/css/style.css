@@ -160,6 +160,7 @@ nav {
 }
 
 /* About Us Section */
+
 #about-us {
     margin-top: 0rem;
 }
@@ -478,8 +479,6 @@ footer h2 {
     font-size: 1.5rem;
 }
 
-/* Media Queries */
-
 /* Media Queries - Navbar */
 
 @media only screen and (max-width: 897px) {
@@ -524,6 +523,12 @@ footer h2 {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .logo h1 {
+        font-size: 1.8rem;
+    }
+}
+
 /* Media Queries - Banner Text */
 
 @media only screen and (max-width: 1150px) {
@@ -539,7 +544,6 @@ footer h2 {
         width: 29rem;
         height: 36rem;
     }
-    
 }
 
 @media only screen and (max-width: 575px) {
@@ -566,6 +570,14 @@ footer h2 {
     }
     .banner-text p {
         font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+.banner-text {
+        margin-top: 14rem;
+        width: 13rem;
+        height: 35rem;
     }
 }
 
@@ -837,13 +849,13 @@ footer h2 {
 
 @media only screen and (max-width: 376px) {
     form button {
-    margin-left: 30%;
+        margin-left: 30%;
     }
 }
 
 @media only screen and (max-width: 321px) {
     form button {
-    margin-left: 26%;
+        margin-left: 26%;
     }
 }
 
