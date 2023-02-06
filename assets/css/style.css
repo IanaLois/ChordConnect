@@ -333,6 +333,7 @@ flip-card-front > img {
     flex-flow: column;
     align-items: center;
     width: 100%;
+    height: auto;
 }
 
 .testimony-image {
@@ -346,7 +347,8 @@ flip-card-front > img {
 }
 
 .testimony-image img {
-    height: 100%;
+    height: 200px;
+    width: 200px;
 }
 
 .testimony-text {
@@ -357,7 +359,7 @@ flip-card-front > img {
     color: #ffffff;
 }
 
-.testimony-text > div > h3 {
+.star-icon {
     font-size: 3.5rem;
 }
 
@@ -654,9 +656,12 @@ form button:active {
 
 /* Media Queries - Testimonials */
 
-@media only screen and (max-width: 1235px) {
+@media only screen and (max-width: 1246px) {
     .testimony-text p {
         margin: 0 30rem;
+    }
+    .star-icon {
+        font-size: 3.3rem;
     }
 }
 
@@ -671,7 +676,7 @@ form button:active {
     .testimonials-subheading h2 {
         font-size: 2rem;
     }
-    .testimony-text > div > h3 {
+    .star-icon {
         font-size: 3rem;
     }
     .testimonials-layout {
@@ -689,9 +694,15 @@ form button:active {
     .testimonials-subheading h2 {
         font-size: 1.7rem;
     }
+    .testimony-text h3 {
+        font-size: 1.6rem;
+    }
+    .star-icon {
+        font-size: 2.5rem;
+    }
     .testimony-text p {
-        font-size: 1.5rem;
         margin: 0 15rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -721,15 +732,13 @@ form button:active {
     .testimonials-layout {
         margin-top: -9rem;
     }    
-    .testimony-text h3 {
-        font-size: 1.6rem;
-    }
-    .testimony-text > div > h3 {
-        font-size: 2.5rem;
-    }
     .testimony-image {
         width: 180px;
         height: 180px;
+    }
+    .testimony-image img {
+        height: 180px;
+        width: 180px;
     }
     #testimonials .testimonials-content {
         margin-bottom: -5.5rem;
@@ -750,8 +759,12 @@ form button:active {
         width: 150px;
         height: 150px;
     }
-    .testimony-text > div > h3 {
-        margin-top: -0.5rem;
+    .testimony-image img {
+        height: 150px;
+        width: 150px;
+    }
+    .star-icon {
+        margin-top: 0.1rem;
     }
     #testimonials .testimonials-content {
         margin-bottom: -5rem;
