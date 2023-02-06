@@ -399,7 +399,7 @@ flip-card-front > img {
     padding: 2rem 5rem;
     margin: 1rem;
     border: 0.3rem solid #58321C;
-    background-color: #87614ba3;
+    background-color: #9e6747b0;
     border-radius: 1rem;
     box-shadow: 1px 5px 8px #58321C;
 }
@@ -426,6 +426,7 @@ form button {
     background-color: #87614b;
     color: #ffffff;
     margin-left: 35%;
+    box-shadow: 0 3px 3px #58321C;
 }
 
 form button:hover {
@@ -436,10 +437,9 @@ form button:hover {
 form button:active {
     background-color: #58321C;
     color: #ffffff;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 5px 5px #87614b;
     transform: translateY(4px);
 }
-
 
 /* Media Queries */
 
@@ -654,7 +654,7 @@ form button:active {
 
 /* Media Queries - Testimonials */
 
-@media only screen and (max-width: 1187px) {
+@media only screen and (max-width: 1235px) {
     .testimony-text p {
         margin: 0 30rem;
     }
@@ -758,5 +758,49 @@ form button:active {
     }
     .testimony-text p {
         margin: 0 0.1rem;
+    }
+}
+
+/* Media Queries - Sign Up */
+
+@media only screen and (max-width: 1025px) {
+    .sign-up-subheading h2 {
+        font-size: 2rem;
+    }
+    .form-back {
+        padding: 1.8rem 4rem;
+    }
+    
+    .form-content {
+        font-size: 2.5rem;
+    }
+    
+    .form-content p {
+        font-size: 2.5rem;
+    }
+    
+    form button {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 851px) {
+    .sign-up-subheading h2 {
+        font-size: 1.7rem;
+    }
+    .form-back {
+        padding: 1.8rem 3.5rem;
+    }
+    
+    .form-content {
+        font-size: 2.3rem;
+    }
+    
+    .form-content p {
+        font-size: 2.3rem;
+    }
+    
+    form button {
+        font-size: 1.7rem;
     }
 }
