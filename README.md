@@ -34,10 +34,9 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 
 - __About Us Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The about us will provide the user with an overview of ChordConnect, its most popular music style lessons, further information about the special offer for new "ChordConnectors," and a phrase at the end to urge the user to start learning and playing the guitar with ChordConnect.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About Us](assets/images/screenshots/chord-connect-about-us.png)
 
 - __Meetup Times section__
 
