@@ -26,12 +26,13 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page features an image with text overlay to show the pricing of the lessons as well as a special offer for all newcomers to the programme.
+  - A button is also added to take the user directly to the Sign up form, bypassing all prior material and information, allowing the user a fast and simple sign up procedure.
+  - This part draws the user's attention to ChordConnect using an aesthetically stunning image and banner.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/screenshots/chord-connect-landing-page-image.png)
 
-- __Club Ethos Section__
+- __About Us Section__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
