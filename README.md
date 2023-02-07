@@ -34,16 +34,20 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 
 - __About Us Section__
 
-  - The about us will provide the user with an overview of ChordConnect, its most popular music style lessons, further information about the special offer for new "ChordConnectors," and a phrase at the end to urge the user to start learning and playing the guitar with ChordConnect.
+  - The about us will provide the user with an overview of ChordConnect, its most popular music style lessons, further information about the special offer for new "ChordConnectors," and a phrase at the end to urge the user to start learning and playing the guitar with them.
 
 ![About Us](assets/images/screenshots/chord-connect-about-us.png)
 
-- __Meetup Times section__
+- __Meet the Tutors section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The user will be able to get better acquainted with the ChordConnect tutors in this section, and when the mouse "hovers" or the photo is "clicked on", the images will flip over to reveal the tutors' name and information.
+  - The "flip card" animation will allow for engaging user interaction and captivate their attention.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meet the Tutors](assets/images/screenshots/chord-connect-meet-the-tutors.png)
+
+![Ollie Rock-style Tutor](assets/images/screenshots/chord-connect-ollie-tutor.png)
+![Hazel Jazz-style Tutor](assets/images/screenshots/chord-connect-hazel-tutor.png)
+![Mason Blues-style Tutor](assets/images/screenshots/chord-connect-mason-tutor.png)
 
 - __The Footer__ 
 
