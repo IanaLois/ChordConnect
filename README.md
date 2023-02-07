@@ -129,15 +129,13 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/D0nni387/Luxury-Door-Solutions), the following steps were taken: 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+1. From the menu items near the top of the page, select **Settings**.
+2. Scroll down to the **GitHub Pages** section.
+3. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+4. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+5. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
 ## Credits 
 
