@@ -70,10 +70,12 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes contact details for users to phone or email ChordConnect if there are any queries or issues.
+  - It also includes the social media links for ChordConnect's Facebook, Twitter, Instagram and YouTube pages, all of which, will open to a new browser tab for quick navigation and removal of the "back button" repetition.
+  - Lastly, a copyright tag is placed at the end of the page.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/screenshots/chord-connect-footer.png)
+
 ### Features Left to Implement
 
 - Another feature idea
