@@ -49,19 +49,14 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 ![Hazel Jazz-style Tutor](assets/images/screenshots/chord-connect-hazel-tutor.png)
 ![Mason Blues-style Tutor](assets/images/screenshots/chord-connect-mason-tutor.png)
 
-- __The Footer__ 
+- __Testimonials__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The testimonials area will allow users to hear what other people, their peers, have experienced while learning guitar with ChordConnect. It is an essential feature to establish trust with future "ChordConnectors".
+  - Three testimonials are presented, each with a photo of the person, name, age, location, statements, and a star rating at the bottom. It is designed in a clear and concise manner.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Nikolas Testimony](assets/images/screenshots/nikolas-testimony.png)
+![Luciana Testimony](assets/images/screenshots/luciana-testimony.png)
+![Krystal Testimony](assets/images/screenshots/krystal-testimony.png)
 
 - __The Sign Up Page__
 
@@ -73,6 +68,12 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 ### Features Left to Implement
 
 - Another feature idea
