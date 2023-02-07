@@ -6,16 +6,23 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - A full responsive navigation bar that is fixed at the top of the screen and present across the entire website, from the header to sections to the footer, to enable quick and easy navigation and prevent scrolling repetition.
+  - It includes links to the Logo, Homepage, About us, Tutors, Testimonials, Sign up form and Contact information.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/screenshots/chord-connect-nav-bar.png)
+
+- __Hamburger Menu__
+
+  - A complete responsive hamburger menu fixed at the top of the screen is a feature of displays for tablets and mobile phones, allowing for quick and straightforward navigation and minimizing scrolling repetition.
+  - It expands upon clicking to show links to the Logo, Homepage, About Us, Tutors, Testimonials, Sign up form, and Contact information.
+
+![Hamburger Menu](assets/images/screenshots/chord-connect-hamburger-menu.png)
+
+![Expanded Hamburger Menu](assets/images/screenshots/chord-connect-expanded-hamburger-menu.png)
 
 - __The landing page image__
 
