@@ -133,7 +133,7 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 
 1. From the menu items near the top of the page, select **Settings**.
 2. Scroll down to the **GitHub Pages** section.
-3. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+3. Under **Source** click the drop-down menu labelled **None** and select **Main Branch**
 4. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
 5. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
