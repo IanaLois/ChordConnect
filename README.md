@@ -60,13 +60,13 @@ ChordConnect has made learning guitar as simple as learning your ABCs and 123s f
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to ChordConnect to begin their path to become the next great guitarist. 
+  - The user will be required to submit their basic details, including their first name, last name and email address.
+  - For assessment of the user's guitar skill level, the user will be asked "What guitar skill level are you?" and will have the option of selecting "Beginner, Intermediate, Advanced or I'm Not Sure".
+  - The user will also have the option to answer "How did you hear about us?" to aid ChordConnect with advertising.
+  - Lastly, a textarea box is included at the bottom for any further questions or information the user wishes to disclose.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Sign Up Form](assets/images/screenshots/chord-connect-sign-up-form.png)
 
 - __The Footer__ 
 
